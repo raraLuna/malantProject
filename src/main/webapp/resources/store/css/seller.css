@@ -1,0 +1,84 @@
+/* seller.css */
+
+/* 테이블 스타일 */
+body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        
+}
+
+  .add-button {
+        position: fixed; 
+        bottom: 50px; 
+        right: 50px; 
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+        width: 100px;
+        height: 50px;
+        display: flex;
+ 		  justify-content: center; 
+    align-items: center;
+    font-size: 24px; 
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+    }
+
+
+ table {
+        width: 80%;
+        margin: 20px auto;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+table img {
+    width: 100px;
+    height: 100px;
+}
+
+/* 페이징 스타일 */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.pagination a, .pagination span {
+    padding: 5px 10px;
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    background-color: #333;
+    color: #fff;
+}

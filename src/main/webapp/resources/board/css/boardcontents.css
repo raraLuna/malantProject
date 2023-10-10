@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 기본 폰트 설정 */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* 사이드바 스타일 */
+.sidebar {
+    position: fixed;
+    z-index: 1;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* 메인 컨텐츠 스타일 */
+.main-content {
+    margin-left: 200px;
+    z-index: 0;
+    padding: 20px;
+}
+
+/* 게시글 목록 스타일 */
+.board-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.board-like {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.board-like a {
+    margin-right: 20px;
+}
+
+/* 이미지 스타일 */
+.image-style {
+    width: 250px;
+    height: 200px;
+}
+
+/* 제목 스타일 */
+.title-style {
+    border: 1px solid green;
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-right: 20px;
+}
+
+/* 좋아요 버튼 스타일 */
+.likeBtn-style {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 30px;
+    height: 30px;
+}

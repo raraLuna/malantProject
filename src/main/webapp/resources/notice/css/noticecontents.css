@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.notice-main {
+	display: flex;
+}
+
+.notice-image {
+	display: flex;
+}
+
+.notice-image-main {
+	display: flex;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.notice-title {
+	font-size: 20px;
+	outline: solid 5px green;
+	width: 200px; /* 테두리 크기 설정 */
+	height: 50px; /* 테두리 크기 설정 */
+	margin: 0 auto;
+}
+
+.notice-container {
+	width: 300px;
+	height: 300px;
+	border: 1px solid green;
+	margin: 0 auto;
+	margin-top: 100px;
+}

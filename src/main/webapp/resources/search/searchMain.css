@@ -1,0 +1,81 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+.search-main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.search-area {
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbox {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.searchbtn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.searchbtn:hover {
+    background-color: #0056b3;
+}
+
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.filter {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+
+#purification {
+    margin-left: 10px;
+}
+
+
+.bestboards {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.bestboards img {
+    max-width: 100%;
+    height: auto;
+}
